@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PokemonAppMVVM" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorPrimaryVariant">#232F34</item>
+        <item name="colorOnPrimary">#4A6572</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#F9AA32</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

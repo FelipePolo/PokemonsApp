@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/primario"></solid>
+    <stroke android:width="3dp" android:color="@color/azulpokemon"></stroke>
+    <corners android:topLeftRadius="12dp" android:topRightRadius="12dp" android:bottomLeftRadius="12dp"></corners>
+
+</shape>
