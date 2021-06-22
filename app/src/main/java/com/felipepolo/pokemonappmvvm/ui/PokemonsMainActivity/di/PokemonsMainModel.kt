@@ -14,11 +14,19 @@ class PokemonsMainModel {
 
     @Provides
     fun providePokemonsMainViewModel(
-        activity: PokemonsMainActivity,
-        repository: userRepository
-        ): PokemonsViewModel{
+            activity: PokemonsMainActivity,
+            repository: userRepository
+    ): PokemonsViewModel {
 
         val factory = ViewModelProviderFactory(repository)
-        return ViewModelProvider(activity,factory).get(PokemonsViewModel::class.java)
+        return ViewModelProvider(activity, factory).get(PokemonsViewModel::class.java)
+    }
+
+    @Provides
+    fun providePokemonsViewModelFactory(
+            repository: userRepository
+    ): ViewModelProviderFactory {
+
+        return ViewModelProviderFactory(repository)
     }
 }

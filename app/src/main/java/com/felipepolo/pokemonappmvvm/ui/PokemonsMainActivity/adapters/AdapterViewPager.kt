@@ -1,4 +1,4 @@
-package com.felipepolo.pokemonappmvvm.ui.PokemonsMainActivity
+package com.felipepolo.pokemonappmvvm.ui.PokemonsMainActivity.adapters
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
